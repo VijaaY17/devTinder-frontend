@@ -15,6 +15,7 @@ const Requests = () => {
       withCredentials : true
     })
     
+    
     dispatch(removeRequest(_id))
     }catch(err)
     {
